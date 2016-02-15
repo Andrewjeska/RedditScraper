@@ -11,7 +11,7 @@ user_agent = (“PicFinder”)
 
 r = praw.Reddit(user_agent = user_agent)
 
-multireddit = "pepethefrog+memes+vertical+treecomics+dogfort+wojak+rarepepes+firstworldproblems+inglip+advice animals"
+multireddit = "pepethefrog+memes+vertical+dogfort+wojak+rarepepes+firstworldproblems+inglip+advice animals"
 
 submissions = r.get_subreddit(multireddit).get_top(limit = int(amount) + 1)
 
